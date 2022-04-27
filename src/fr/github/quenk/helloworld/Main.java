@@ -12,5 +12,14 @@ public class Main {
         int somme= 1500;
         float resultat = (float) (dollarsame * somme);
         System.out.println(resultat);
+
+        //Exo 3: Pluton V3
+
+        String phrase="Aux dernières nouvelles, le nombre total de planètes dans le système solaire est de :";
+        int nbPlanetes=8;
+        System.out.println(phrase+nbPlanetes);
+        phrase="Il y a quelques années cependant, elles étaient au nombre de :";
+        nbPlanetes++;
+        System.out.println(phrase+nbPlanetes);
     }
 }
