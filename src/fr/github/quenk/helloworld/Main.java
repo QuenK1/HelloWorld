@@ -21,5 +21,21 @@ public class Main {
         phrase="Il y a quelques années cependant, elles étaient au nombre de :";
         nbPlanetes++;
         System.out.println(phrase+nbPlanetes);
+
+        //exo de codage 6 | Affichage conditionnel
+
+        String phraseIntro ="En %d, les planètes du système solaire était au nombre de : %d";
+
+        int planete=0;
+        short annee = 2018;
+
+        if(annee<2006){
+            planete = 9;
+        }
+        if(annee >=2006){
+            planete = 8;
+        }
+
+        System.out.printf(phraseIntro,annee,planete);
     }
 }
